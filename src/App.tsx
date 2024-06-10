@@ -51,7 +51,7 @@ const App: React.FC = () => {
           <Content className="site-content">
             <Routes>
               <Route
-                path="/"
+                path="/murad.gakhraman.cv"
                 element={<Home />}
               />
               <Route

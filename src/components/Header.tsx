@@ -17,7 +17,7 @@ const Header: React.FC = () => {
       key: 'home',
       label: (
         <Link
-          to="/"
+          to="/murad.gakhraman.cv"
           id="home"
         >
           Home
@@ -44,9 +44,9 @@ const Header: React.FC = () => {
     <div className="header">
       <div
         className="logo"
-        onClick={() => setCurrent('/')}
+        onClick={() => setCurrent('/murad.gakhraman.cv')}
       >
-        <Link to="/">
+        <Link to="/murad.gakhraman.cv">
           <img
             src={logo}
             alt="img"

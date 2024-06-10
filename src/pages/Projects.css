@@ -1,0 +1,44 @@
+.projects {
+  text-align: center;
+  color: #fff;
+  font-family: 'Jura', sans-serif;
+}
+
+.projects-row {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.projects-title {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  z-index: 10;
+  font-size: 2rem;
+}
+
+.projects-body {
+  position: relative;
+  padding: 1.5rem;
+  overflow-y: auto;
+  height: calc(100vh - 11rem);
+}
+
+.projects .ant-card {
+  width: 25rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+  border-radius: 1rem;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.projects .ant-card .ant-card-body {
+  text-align: center;
+  padding: 0.5rem;
+}
+
+@media screen and (max-width: 480px) {
+  .projects .ant-card {
+    width: 15rem;
+  }
+}

@@ -1,38 +1,33 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Jura', sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background: linear-gradient(135deg, #000000, #1c1c1c, #c0c0c0, #e0e0e0);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  color: #ffffff;
+  min-height: '100vh';
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.site-content {
+  margin: 4rem 4vw 0 4vw;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+  overflow: auto;
+  height: calc(100vh - 7rem);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  50% {
+    background-position: 100% 50%;
   }
-  to {
-    transform: rotate(360deg);
+  100% {
+    background-position: 0% 50%;
   }
 }

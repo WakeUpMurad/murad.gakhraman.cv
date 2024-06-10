@@ -1,0 +1,63 @@
+.aboutAndSkills {
+  text-align: center;
+  color: #fff;
+  font-family: 'Jura', sans-serif;
+}
+.aboutAndSkills-title {
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 10;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.aboutAndSkills-body {
+  position: relative;
+  padding: 1.5rem;
+  overflow-y: auto;
+}
+
+.aboutAndSkills-subtitle {
+  font-size: 2rem;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.aboutAndSkills-row {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+.aboutAndSkills .ant-card {
+  text-align: center;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+}
+.aboutAndSkills-icon {
+  color: #ff6f61;
+}
+.aboutAndSkills-card {
+  padding: 0.5rem;
+}
+.aboutAndSkills-card .ant-card-head {
+  min-height: auto;
+}
+.aboutAndSkills-card .ant-card-body {
+  padding: 0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .aboutAndSkills-body {
+    height: 100%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .aboutAndSkills-body {
+    padding: 0.5rem;
+  }
+  .aboutAndSkills-title,
+  .aboutAndSkills-subtitle {
+    font-size: 1.5rem;
+  }
+}

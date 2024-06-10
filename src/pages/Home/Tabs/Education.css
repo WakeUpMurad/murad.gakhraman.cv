@@ -1,0 +1,83 @@
+.education {
+  text-align: center;
+  color: #fff;
+  font-family: 'Jura', sans-serif;
+}
+.education-title {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  z-index: 10;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.education-body {
+  position: relative;
+  padding: 1.5rem;
+  overflow-y: auto;
+  height: calc(100vh - 11rem);
+}
+
+.higherEducation {
+  padding: 0 0 0.5rem 0;
+}
+.education-subtitle {
+  text-align: center;
+  padding: 0 0 0.5rem 0;
+}
+
+.education-row {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.education-card {
+  padding: 0.5rem;
+}
+
+.education-card .ant-card-head {
+  min-height: auto;
+}
+
+.education-card .ant-card-body {
+  padding: 0.5rem;
+}
+
+.higherEducation .ant-card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+  border-radius: 1rem;
+  border: none;
+}
+
+.sertificates .ant-card {
+  width: 25rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+  border-radius: 1rem;
+  border: none;
+}
+.sertificates .ant-card-cover img {
+  border: none;
+  border-radius: 1rem 1rem 0 0;
+}
+.sertificates .ant-card-body {
+  padding: 0.5rem;
+}
+
+.sertificates ul.ant-card-actions {
+  border-radius: 0 0 1rem 1rem;
+}
+
+.education-link {
+  color: #ff6f61;
+  text-decoration: none;
+}
+.education-link:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 480px) {
+  .sertificates .ant-card {
+    width: 15rem;
+  }
+}

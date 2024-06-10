@@ -1,0 +1,52 @@
+.experience {
+  text-align: center;
+  color: #fff;
+  font-family: 'Jura', sans-serif;
+}
+
+.experience-title {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  z-index: 10;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.experience-body {
+  position: relative;
+  padding: 1.5rem;
+  overflow-y: auto;
+}
+
+.experience-row {
+  max-width: 30rem;
+  margin: 0 auto;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+.experience .ant-card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+  border-radius: 1rem;
+  border: none;
+}
+.experience-card {
+  padding: 0.5rem;
+}
+
+.experience-card .ant-card-head {
+  min-height: auto;
+}
+
+.experience-card .ant-card-body {
+  padding: 0.5rem;
+}
+
+.experience-description {
+  font-size: 0.8rem;
+  text-align: left;
+}
+.experience-companyAndperiod {
+  font-weight: bold;
+  text-align: center;
+}

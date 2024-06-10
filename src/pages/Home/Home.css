@@ -1,0 +1,80 @@
+.home {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  background: url(../../images/figure.png) no-repeat 15%;
+  background-size: contain;
+  color: #fff;
+  font-family: 'Jura', sans-serif;
+}
+
+.home-body {
+  display: flex;
+}
+
+.home-title {
+  font-size: 3rem;
+  writing-mode: vertical-rl;
+  padding: 0 3vw;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+}
+
+.home-tabs {
+  width: 50%;
+  color: #fff;
+  font-family: 'Jura', sans-serif;
+}
+
+.home-tab {
+  height: 100%;
+  overflow: scroll;
+  border: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .home {
+    height: auto;
+    flex-direction: column;
+  }
+  .home-tabs {
+    width: 100%;
+    margin: 1rem 0;
+  }
+  .ant-tabs-right > .ant-tabs-content-holder > .ant-tabs-content > .ant-tabs-tabpane {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home {
+    flex-direction: column;
+    background-size: contain;
+    background-position: top;
+  }
+  .home-tabs {
+    height: 100%;
+    width: 100%;
+    margin: 1rem 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .home-title {
+    font-size: 2rem;
+  }
+  .home-tabs {
+    width: 100%;
+    margin: 1rem 0;
+  }
+  .home-tab-title {
+    display: none;
+  }
+
+  .ant-tabs-right > .ant-tabs-nav {
+    min-width: 2rem;
+  }
+  .ant-col {
+    flex: 0 0 45%;
+  }
+}

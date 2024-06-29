@@ -6,8 +6,8 @@ const contacts = [
   { id: 1, title: 'Telegram', body: 'murad_savage', link: 'https://t.me/murad_savage', icon: <SendOutlined /> },
   { id: 2, title: 'LinkedIn', body: 'murad-gakhramanov', link: 'https://linkedin.com/in/murad-gakhramanov/', icon: <LinkedinOutlined /> },
   { id: 3, title: 'GitHub', body: 'WakeUpMurad', link: 'https://github.com/WakeUpMurad', icon: <GithubOutlined /> },
-  { id: 4, title: 'Email', body: 'my_pad@mail.ru', link: 'my_pad@mail.ru', icon: <MailOutlined /> },
-  { id: 5, title: 'Phone', body: '+7 (953) 4215577', link: '+7 (953) 4215577', icon: <PhoneOutlined /> },
+  { id: 4, title: 'Email', body: 'my_pad@mail.ru', link: ' mailto:my_pad@mail.ru', icon: <MailOutlined /> },
+  { id: 5, title: 'Phone', body: '+7(953)421-55-77', link: 'tel:+7(953)421-55-77', icon: <PhoneOutlined /> },
 ]
 const Contacts: React.FC = () => {
   return (

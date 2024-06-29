@@ -27,7 +27,7 @@
 }
 
 .home-tab {
-  height: 100%;
+  height: calc(100vh - 8rem);
   overflow: scroll;
   border: none;
 }

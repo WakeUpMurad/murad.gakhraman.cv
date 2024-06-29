@@ -15,7 +15,7 @@
   position: relative;
   padding: 1.5rem;
   overflow-y: auto;
-  height: calc(100vh - 11rem);
+  height: calc(100vh - 8rem);
 }
 
 .higherEducation {

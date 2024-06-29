@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/murad.gakhraman.cv/static/css/main.92322259.css",
-    "main.js": "/murad.gakhraman.cv/static/js/main.34cca99e.js",
+    "main.js": "/murad.gakhraman.cv/static/js/main.65bb1d98.js",
     "static/media/figure.png": "/murad.gakhraman.cv/static/media/figure.f5b8aa710bd4b49da284.png",
     "static/media/mg.png": "/murad.gakhraman.cv/static/media/mg.a688e832bbd5b1be011d.png",
     "static/media/vue3PostsApp.jpeg": "/murad.gakhraman.cv/static/media/vue3PostsApp.f65278719c17597d55ce.jpeg",
@@ -29,10 +29,10 @@
     "static/media/logo.svg": "/murad.gakhraman.cv/static/media/logo.606ed25064bbbbe9d0ce2906f80a8ffe.svg",
     "index.html": "/murad.gakhraman.cv/index.html",
     "main.92322259.css.map": "/murad.gakhraman.cv/static/css/main.92322259.css.map",
-    "main.34cca99e.js.map": "/murad.gakhraman.cv/static/js/main.34cca99e.js.map"
+    "main.65bb1d98.js.map": "/murad.gakhraman.cv/static/js/main.65bb1d98.js.map"
   },
   "entrypoints": [
     "static/css/main.92322259.css",
-    "static/js/main.34cca99e.js"
+    "static/js/main.65bb1d98.js"
   ]
 }

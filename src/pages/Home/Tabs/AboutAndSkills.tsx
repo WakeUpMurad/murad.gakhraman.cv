@@ -1,19 +1,26 @@
 import React from 'react'
 import { Row, Col, Card } from 'antd'
 import { JavaScriptOutlined, Html5Outlined, GithubOutlined, GitlabOutlined, DockerOutlined } from '@ant-design/icons'
+import { ReactComponent as CSS } from '../../../images/icons/css.svg'
+import { ReactComponent as ReactIco } from '../../../images/icons/react.svg'
+import { ReactComponent as Node } from '../../../images/icons/node.svg'
+import { ReactComponent as Next } from '../../../images/icons/next.svg'
 import './AboutAndSkills.css'
+
+const description = `Cпециалист с 10-летним стажем работы в Сбербанке, где занимал должность эксперта. Изучаю веб разработку с <b><i>2021</i> года</b>. Имею более 2 лет коммерческой разработки. Эксперт с опытом и навыками в области фронтенд разработки. Владею высоким уровнем навыков в <b>JavaScript, TypeScript, ReactJS, VUE3, Redux, HTML, CSS</b>. Обладаю дипломом FullStack Web Developer и сертификатами по веб-разработке.`
 
 const skills = [
   { id: 1, title: 'JavaScript', icon: <JavaScriptOutlined /> },
   { id: 2, title: 'HTML', icon: <Html5Outlined /> },
-  { id: 3, title: 'CSS', icon: <Html5Outlined /> },
+  { id: 3, title: 'CSS', icon: <CSS /> },
   { id: 4, title: 'GitLab', icon: <GitlabOutlined /> },
   { id: 5, title: 'GitHub', icon: <GithubOutlined /> },
   { id: 6, title: 'Docker', icon: <DockerOutlined /> },
-  { id: 7, title: 'React', icon: <Html5Outlined /> },
-  { id: 8, title: 'Next.js', icon: <Html5Outlined /> },
-  { id: 9, title: 'Node.js', icon: <Html5Outlined /> },
+  { id: 7, title: 'React', icon: <ReactIco /> },
+  { id: 8, title: 'Next.js', icon: <Next /> },
+  { id: 9, title: 'Node.js', icon: <Node /> },
 ]
+
 const AboutAndSkills: React.FC = () => {
   return (
     <section className="aboutAndSkills">
@@ -24,14 +31,10 @@ const AboutAndSkills: React.FC = () => {
           bordered={false}
           className="aboutAndSkills-card"
         >
-          <p className="about-description">
-            Cпециалист с 10-летним стажем работы в Сбербанке, где занимал должность эксперта. Изучаю веб разработку с{' '}
-            <b>
-              <i>2021</i> года
-            </b>
-            . Имею более года коммерческой разработки. Эксперт с опытом и навыками в области фронтенд разработки. Владею высоким уровнем навыков в{' '}
-            <b>JavaScript, TypeScript, ReactJS, VUE, Redux, HTML, CSS</b>. Обладаю дипломом FullStack Web Developer и сертификатами по веб-разработке.
-          </p>
+          <p
+            className="about-description"
+            dangerouslySetInnerHTML={{ __html: description }}
+          />
         </Card>
 
         <h2 className="aboutAndSkills-subtitle">Skills</h2>

@@ -13,23 +13,29 @@
 }
 
 .experience-body {
-  position: relative;
   padding: 1.5rem;
   overflow-y: auto;
+  height: calc(100svh - 10.3rem);
 }
 
 .experience-row {
-  max-width: 30rem;
-  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 1rem;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
+
 .experience .ant-card {
+  width: 25vw;
+  margin: 0 auto;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
   border-radius: 1rem;
   border: none;
 }
+
 .experience-card {
   padding: 0.5rem;
 }
@@ -46,7 +52,22 @@
   font-size: 0.8rem;
   text-align: left;
 }
+
 .experience-companyAndperiod {
   font-weight: bold;
   text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .experience {
+    min-height: calc(100svh - 4rem);
+  }
+  .experience-body {
+    padding: 0.5rem;
+    height: calc(100svh - 7.3rem);
+  }
+  .experience .ant-card {
+    font-size: 0.7rem;
+    width: 65vw;
+  }
 }

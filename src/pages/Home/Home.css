@@ -1,6 +1,10 @@
 .home {
   height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   text-align: center;
   background: url(../../images/figure.png) no-repeat 15%;
@@ -10,7 +14,10 @@
 }
 
 .home-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  width: 50%;
 }
 
 .home-title {
@@ -20,6 +27,15 @@
   text-shadow: 0 4px 8px rgba(0, 0, 0, 1);
 }
 
+.home-image {
+  height: 100%;
+  width: auto;
+}
+.home-body .ant-image > img {
+  height: 100%;
+  width: auto;
+}
+
 .home-tabs {
   width: 50%;
   color: #fff;
@@ -27,43 +43,70 @@
 }
 
 .home-tab {
-  height: calc(100vh - 8rem);
+  height: calc(100svh - 7rem);
+  overflow: -webkit-scroll;
+  overflow: -moz-scroll;
+  overflow: -o-scroll;
+  overflow: -ms-scroll;
   overflow: scroll;
   border: none;
 }
 
 @media screen and (max-width: 1200px) {
   .home {
-    height: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    background-size: contain;
+    background-position: top;
+  }
+  .home-body {
+    width: 100%;
+    height: calc(100svh - 4rem);
   }
   .home-tabs {
     width: 100%;
     margin: 1rem 0;
   }
   .ant-tabs-right > .ant-tabs-content-holder > .ant-tabs-content > .ant-tabs-tabpane {
+    height: calc(100svh - 4rem);
     padding: 0;
   }
 }
 
-@media screen and (max-width: 768px) {
-  .home {
-    flex-direction: column;
-    background-size: contain;
-    background-position: top;
-  }
-  .home-tabs {
-    height: 100%;
-    width: 100%;
-    margin: 1rem 0;
-  }
-}
-
 @media screen and (max-width: 480px) {
+  .home {
+    height: -webkit-fill-available;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-position: center;
+  }
+  .home-body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+  }
+  .home-body .ant-image {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    min-height: calc(100svh - 4rem);
+  }
+  .home-body .ant-image > img {
+    width: inherit;
+    height: auto;
+  }
+
   .home-title {
     font-size: 2rem;
   }
   .home-tabs {
+    min-height: calc(100svh - 4rem);
     width: 100%;
     margin: 1rem 0;
   }
@@ -75,6 +118,8 @@
     min-width: 2rem;
   }
   .ant-col {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 45%;
     flex: 0 0 45%;
   }
 }

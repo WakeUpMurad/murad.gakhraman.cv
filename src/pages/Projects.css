@@ -5,8 +5,12 @@
 }
 
 .projects-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 1rem;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 
@@ -18,14 +22,14 @@
 }
 
 .projects-body {
-  position: relative;
   padding: 1.5rem;
   overflow-y: auto;
-  height: calc(100vh - 8rem);
+  height: calc(100svh - 10.3rem);
 }
 
 .projects .ant-card {
-  width: 25rem;
+  width: 25vw;
+  margin: 0 auto;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
   border-radius: 1rem;
   border: none;
@@ -37,8 +41,16 @@
   padding: 0.5rem;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1200px) {
+  .projects {
+    min-height: calc(100svh - 4rem);
+  }
+  .projects-body {
+    padding: 0.5rem;
+    height: calc(100svh - 7.3rem);
+  }
   .projects .ant-card {
-    width: 15rem;
+    font-size: 0.7rem;
+    width: 65vw;
   }
 }

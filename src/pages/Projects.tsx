@@ -1,10 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import { Card, Col, Row } from 'antd'
 import { LikeFilled, LikeOutlined, LinkOutlined } from '@ant-design/icons'
-import './Projects.css'
 import greenCorp from '../images/projects/greenCorp.jpeg'
 import strongPassGen from '../images/projects/strongPassGen.jpeg'
-import taskApp from '../images/projects/taskApp.jpeg'
 import landBEM from '../images/projects/landBEM.jpeg'
 import bookLibrary from '../images/projects/bookLibrary.jpeg'
 import todoApp from '../images/projects/todoApp.jpeg'
@@ -12,6 +10,7 @@ import cryptoExchanger from '../images/projects/cryptoExchanger.jpeg'
 import vue3PostsApp from '../images/projects/vue3PostsApp.jpeg'
 import weatherApp from '../images/projects/weatherApp.jpeg'
 import EventsReactTypescript from '../images/projects/EventsReactTypescript.jpeg'
+import './Projects.css'
 
 const { Meta } = Card
 
@@ -43,18 +42,18 @@ const projectsData: Project[] = [
   },
   {
     id: 3,
-    title: 'Todo task manager',
-    description: 'Pure JavaScript, HTML, CSS',
-    link: 'https://wakeupmurad.github.io/DOM-task-todo-pureJS/',
-    image: taskApp,
-    like: false,
-  },
-  {
-    id: 4,
     title: 'Landing page using BEM',
     description: 'Pure JavaScript, HTML, CSS',
     link: 'https://wakeupmurad.github.io/BEM_landing/',
     image: landBEM,
+    like: false,
+  },
+  {
+    id: 4,
+    title: 'Events App',
+    description: 'React-TypeScript library',
+    link: 'https://github.com/WakeUpMurad/ulbi-tv-react-js-pro',
+    image: EventsReactTypescript,
     like: false,
   },
   {
@@ -95,14 +94,6 @@ const projectsData: Project[] = [
     description: 'VUE3 library',
     link: 'https://github.com/WakeUpMurad/vue-weather-app/',
     image: weatherApp,
-    like: false,
-  },
-  {
-    id: 10,
-    title: 'Book library app',
-    description: 'React-TypeScript library',
-    link: 'https://github.com/WakeUpMurad/ulbi-tv-react-js-pro',
-    image: EventsReactTypescript,
     like: false,
   },
 ]

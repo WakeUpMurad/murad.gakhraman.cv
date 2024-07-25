@@ -38,7 +38,6 @@ const Header: React.FC = () => {
   ]
 
   const openKeys = menuItems.map((item) => item.key)
-  console.log(openKeys)
 
   return (
     <div className="header">
@@ -57,9 +56,9 @@ const Header: React.FC = () => {
         mode="horizontal"
         selectedKeys={[current]}
         defaultSelectedKeys={['home']}
-        style={{ background: 'none', border: 'none' }}
         items={menuItems}
         onClick={handleClick}
+        openKeys={openKeys}
       />
     </div>
   )

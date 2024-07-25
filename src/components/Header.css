@@ -1,7 +1,13 @@
 .header {
   font-family: 'Jura', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   padding: 0 1rem;
   color: #ffffff;
@@ -13,14 +19,31 @@
 }
 
 .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
-  line-height: 2, 9rem;
+  line-height: 2.9rem; /* corrected from 2,9rem */
 }
 .logo img {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 232px;
   padding: 1rem;
+}
+
+.ant-menu {
+  border: none;
+  height: 4rem;
+  background: none;
+}
+
+.ant-menu .ant-menu-item {
+  display: flex;
+  align-items: center;
 }
 
 .ant-menu-item a {
@@ -33,4 +56,22 @@
 #contacts {
   color: #ffffff;
   font-family: 'Jura', sans-serif;
+}
+
+@media screen and (max-width: 1200px) {
+  .header {
+    height: 2rem;
+  }
+  .logo {
+    line-height: 1.5rem;
+  }
+  .logo img {
+    width: 150px;
+  }
+  .ant-menu {
+    height: 2rem;
+  }
+  .ant-menu-item a {
+    font-size: 0.7rem;
+  }
 }

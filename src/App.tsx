@@ -46,9 +46,9 @@ const App: React.FC = () => {
           },
         }}
       >
-        <Layout style={{ background: 'none', minHeight: '100vh' }}>
+        <Layout>
           <Header />
-          <Content className="site-content">
+          <Content>
             <Routes>
               <Route
                 path="/murad.gakhraman.cv"

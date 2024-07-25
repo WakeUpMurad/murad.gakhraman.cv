@@ -3,6 +3,7 @@
   color: #fff;
   font-family: 'Jura', sans-serif;
 }
+
 .aboutAndSkills-title {
   position: -webkit-sticky;
   position: sticky;
@@ -12,9 +13,9 @@
 }
 
 .aboutAndSkills-body {
-  position: relative;
   padding: 1.5rem;
   overflow-y: auto;
+  height: calc(100svh - 10.3rem);
 }
 
 .aboutAndSkills-subtitle {
@@ -24,40 +25,74 @@
 }
 
 .aboutAndSkills-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 1rem;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
+
 .aboutAndSkills .ant-card {
+  margin: 0 auto;
   text-align: center;
   padding: 0.5rem;
   border-radius: 1rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
 }
-.aboutAndSkills-icon {
-  color: #ff6f61;
+
+.aboutAndSkills-body > .ant-card {
+  width: 30vw;
 }
+
+.aboutAndSkills-row > .ant-col > .ant-card {
+  width: 9vw;
+}
+
+.aboutAndSkills-icon > svg {
+  fill: #ff6f61;
+  width: 2rem;
+  height: 2rem;
+}
+
+.aboutAndSkills-icon span.anticon > svg {
+  color: #ff6f61;
+  width: 2rem;
+  height: 2rem;
+}
+
 .aboutAndSkills-card {
   padding: 0.5rem;
 }
+
 .aboutAndSkills-card .ant-card-head {
   min-height: auto;
 }
+
 .aboutAndSkills-card .ant-card-body {
   padding: 0.5rem;
 }
 
-@media screen and (max-width: 768px) {
-  .aboutAndSkills-body {
-    height: 100%;
+@media screen and (max-width: 1200px) {
+  .aboutAndSkills {
+    min-height: calc(100svh - 4rem);
   }
-}
-@media screen and (max-width: 480px) {
+  .aboutAndSkills .ant-card {
+    font-size: 0.7rem;
+    width: 65vw;
+    margin: 0 auto;
+  }
   .aboutAndSkills-body {
     padding: 0.5rem;
+    height: calc(100svh - 7.3rem);
   }
   .aboutAndSkills-title,
   .aboutAndSkills-subtitle {
     font-size: 1.5rem;
+  }
+  .aboutAndSkills .ant-row .ant-col .ant-card {
+    width: 33vw;
+    margin: 0 auto;
   }
 }

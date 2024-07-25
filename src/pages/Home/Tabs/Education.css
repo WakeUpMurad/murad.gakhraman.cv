@@ -3,6 +3,7 @@
   color: #fff;
   font-family: 'Jura', sans-serif;
 }
+
 .education-title {
   position: -webkit-sticky; /* Safari */
   position: sticky;
@@ -12,27 +13,32 @@
 }
 
 .education-body {
-  position: relative;
   padding: 1.5rem;
   overflow-y: auto;
-  height: calc(100vh - 8rem);
+  height: calc(100svh - 10.3rem);
 }
 
 .higherEducation {
   padding: 0 0 0.5rem 0;
 }
+
 .education-subtitle {
   text-align: center;
   padding: 0 0 0.5rem 0;
 }
 
 .education-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 1rem;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 
 .education-card {
+  width: 25vw;
   padding: 0.5rem;
 }
 
@@ -45,21 +51,26 @@
 }
 
 .higherEducation .ant-card {
+  width: 25vw;
+  margin: 0 auto;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
   border-radius: 1rem;
   border: none;
 }
 
 .sertificates .ant-card {
-  width: 25rem;
+  width: 25vw;
+  margin: 0 auto;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
   border-radius: 1rem;
   border: none;
 }
+
 .sertificates .ant-card-cover img {
   border: none;
   border-radius: 1rem 1rem 0 0;
 }
+
 .sertificates .ant-card-body {
   padding: 0.5rem;
 }
@@ -72,12 +83,26 @@
   color: #ff6f61;
   text-decoration: none;
 }
+
 .education-link:hover {
   text-decoration: underline;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1200px) {
+  .education {
+    min-height: calc(100svh - 4rem);
+  }
+  .education-body {
+    padding: 0.5rem;
+    height: calc(100svh - 7.3rem);
+  }
+
+  .higherEducation .ant-card {
+    font-size: 0.7rem;
+    width: 65vw;
+  }
   .sertificates .ant-card {
-    width: 15rem;
+    font-size: 0.7rem;
+    width: 65vw;
   }
 }

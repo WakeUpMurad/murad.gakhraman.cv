@@ -5,9 +5,9 @@
 }
 
 .contacts-body {
-  position: relative;
   padding: 1.5rem;
   overflow-y: auto;
+  height: calc(100svh - 10.3rem);
 }
 
 .contacts-title {
@@ -19,31 +19,29 @@
 }
 
 .contacts-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 1rem;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 
 .contacts .ant-card {
-  width: auto;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
-  border-radius: 1rem;
-  border: none;
-}
-.contacts-card {
+  width: 14vw;
+  margin: 0 auto;
   text-align: center;
   padding: 0.5rem;
-  width: 10rem;
   border-radius: 1rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+  border: none;
 }
 
-.contacts-card {
-  padding: 0.5rem;
-}
 .contacts-card .ant-card-head {
   min-height: auto;
 }
+
 .contacts-card .ant-card-body {
   padding: 0.5rem;
 }
@@ -52,20 +50,21 @@
   color: #ff6f61;
   text-decoration: none;
 }
+
 .contacts-link:hover {
   text-decoration: underline;
 }
 
-@media screen and (max-width: 768px) {
-  .ant-col {
-    flex: 0 0 45%;
+@media screen and (max-width: 1200px) {
+  .contacts {
+    min-height: calc(100svh - 4rem);
   }
-}
-@media screen and (max-width: 480px) {
   .contacts-body {
     padding: 0.5rem;
+    height: calc(100svh - 7.3rem);
   }
-  .contacts-title {
-    font-size: 1.5rem;
+  .contacts .ant-card {
+    font-size: 0.8rem;
+    width: 65vw;
   }
 }

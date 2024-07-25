@@ -12,5 +12,19 @@ body {
   font-family: 'Jura', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  -webkit-font-optical-sizing: auto;
+  -moz-font-optical-sizing: auto;
+  -ms-font-optical-sizing: auto;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background: -webkit-linear-gradient(135deg, #000000, #1c1c1c, #c0c0c0, #e0e0e0);
+  background: -moz-linear-gradient(135deg, #000000, #1c1c1c, #c0c0c0, #e0e0e0);
+  background: linear-gradient(135deg, #000000, #1c1c1c, #c0c0c0, #e0e0e0);
+  background-size: 400% 400%;
+  -webkit-animation: gradient 15s ease infinite;
+  -moz-animation: gradient 15s ease infinite;
+  -ms-animation: gradient 15s ease infinite;
+  animation: gradient 15s ease infinite;
   color: #ffffff;
+  min-height: 100svh; /* Removed quotes */
 }

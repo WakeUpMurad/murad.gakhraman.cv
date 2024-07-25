@@ -6,3 +6,11 @@
   font-family: 'Jura', sans-serif;
   height: 3rem;
 }
+
+@media screen and (max-width: 1200px) {
+  .footer {
+    padding: 0.5rem 0;
+    height: 2rem;
+    font-size: 0.7rem;
+  }
+}

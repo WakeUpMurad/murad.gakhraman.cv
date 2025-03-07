@@ -7,7 +7,7 @@ import { ReactComponent as Node } from '../../../images/icons/node.svg'
 import { ReactComponent as Next } from '../../../images/icons/next.svg'
 import './AboutAndSkills.css'
 
-const description = `Cпециалист с 10-летним стажем работы в Сбербанке, где занимал должность эксперта. Изучаю веб разработку с <b><i>2021</i> года</b>. Имею более 2 лет коммерческой разработки. Эксперт с опытом и навыками в области фронтенд разработки. Владею высоким уровнем навыков в <b>JavaScript, TypeScript, ReactJS, VUE3, Redux, HTML, CSS</b>. Обладаю дипломом FullStack Web Developer и сертификатами по веб-разработке.`
+const description = `Эксперт с 12-летним стажем работы в Сбере, РСХБ-Интех, с опытом и навыками в области фронтенд разработки. Имею более <b>4</b> лет коммерческой разработки. Изучаю веб разработку с <b><i>2020</i> года</b>. Владею высоким уровнем навыков в <b>JavaScript, TypeScript, ReactJS, VUE3, Redux, HTML, CSS</b>. Обладаю дипломом FullStack Web Developer и сертификатами по веб-разработке.`
 
 const skills = [
   { id: 1, title: 'JavaScript', icon: <JavaScriptOutlined /> },

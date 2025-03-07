@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/murad.gakhraman.cv/static/css/main.2e0b28b8.css",
+    "main.js": "/murad.gakhraman.cv/static/js/main.73649228.js",
+    "static/media/figure.png": "/murad.gakhraman.cv/static/media/figure.f5b8aa710bd4b49da284.png",
+    "static/media/mg.png": "/murad.gakhraman.cv/static/media/mg.a688e832bbd5b1be011d.png",
+    "static/media/vue3PostsApp.jpeg": "/murad.gakhraman.cv/static/media/vue3PostsApp.f65278719c17597d55ce.jpeg",
+    "static/media/greenCorp.jpeg": "/murad.gakhraman.cv/static/media/greenCorp.a60175c3bda9c2db68a2.jpeg",
+    "static/media/landBEM.jpeg": "/murad.gakhraman.cv/static/media/landBEM.5ae393257f922cadd4d2.jpeg",
+    "static/media/strongPassGen.jpeg": "/murad.gakhraman.cv/static/media/strongPassGen.3f48216bd368abfea290.jpeg",
+    "static/media/bookLibrary.jpeg": "/murad.gakhraman.cv/static/media/bookLibrary.6f0c4e7b7eab6e133ae2.jpeg",
+    "static/media/cryptoExchanger.jpeg": "/murad.gakhraman.cv/static/media/cryptoExchanger.0d2c577c4d2f514bd7ae.jpeg",
+    "static/media/EventsReactTypescript.jpeg": "/murad.gakhraman.cv/static/media/EventsReactTypescript.b31b05be83eaf47055ea.jpeg",
+    "static/media/avtonomn.jpg": "/murad.gakhraman.cv/static/media/avtonomn.865c3cd4bc47b11c5503.jpg",
+    "static/media/upravWebpageJS.jpg": "/murad.gakhraman.cv/static/media/upravWebpageJS.8d1706ba5f8535a57b0a.jpg",
+    "static/media/osnPrJS2.jpg": "/murad.gakhraman.cv/static/media/osnPrJS2.646f1c2d7591ca6fa282.jpg",
+    "static/media/osnPrJS1.jpg": "/murad.gakhraman.cv/static/media/osnPrJS1.b074cec63327d3d40621.jpg",
+    "static/media/osnAlgor.jpg": "/murad.gakhraman.cv/static/media/osnAlgor.5d2530723d9a420a0ab4.jpg",
+    "static/media/weatherApp.jpeg": "/murad.gakhraman.cv/static/media/weatherApp.9e0c2d0cf729a1a9c433.jpeg",
+    "static/media/todoApp.jpeg": "/murad.gakhraman.cv/static/media/todoApp.c9c4c7f5d34bb269c759.jpeg",
+    "static/media/osnProg.jpg": "/murad.gakhraman.cv/static/media/osnProg.7dac2d6c9dbc171c3600.jpg",
+    "static/media/osnHTML_CSS.jpg": "/murad.gakhraman.cv/static/media/osnHTML_CSS.74fbe52f66c289c726d0.jpg",
+    "static/media/html_css_js_coursera.jpeg": "/murad.gakhraman.cv/static/media/html_css_js_coursera.69783957fbdf81bd6d6f.jpeg",
+    "static/media/diplAcademyTopIT.jpeg": "/murad.gakhraman.cv/static/media/diplAcademyTopIT.5e98e4f99ec15f88f301.jpeg",
+    "static/media/React_Redux_Sololearn.jpg": "/murad.gakhraman.cv/static/media/React_Redux_Sololearn.50d02c455cc9140075b5.jpg",
+    "static/media/HTML_solo.jpg": "/murad.gakhraman.cv/static/media/HTML_solo.040e06c521419773ac9c.jpg",
+    "static/media/JS_solo.jpg": "/murad.gakhraman.cv/static/media/JS_solo.f029092d49e9a9d4f386.jpg",
+    "static/media/logo.svg": "/murad.gakhraman.cv/static/media/logo.606ed25064bbbbe9d0ce2906f80a8ffe.svg",
+    "static/media/react.svg": "/murad.gakhraman.cv/static/media/react.fcca8017310f0cf8ffba4dbf899f2779.svg",
+    "static/media/next.svg": "/murad.gakhraman.cv/static/media/next.b0cd4ec7d66b9048682c2d58d2a4008b.svg",
+    "static/media/css.svg": "/murad.gakhraman.cv/static/media/css.d55acd0ff20002ac5bd91cdaf14846aa.svg",
+    "static/media/node.svg": "/murad.gakhraman.cv/static/media/node.070a1c1c9441eb14f03262e92d454003.svg",
+    "index.html": "/murad.gakhraman.cv/index.html",
+    "main.2e0b28b8.css.map": "/murad.gakhraman.cv/static/css/main.2e0b28b8.css.map",
+    "main.73649228.js.map": "/murad.gakhraman.cv/static/js/main.73649228.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2e0b28b8.css",
+    "static/js/main.73649228.js"
+  ]
+}

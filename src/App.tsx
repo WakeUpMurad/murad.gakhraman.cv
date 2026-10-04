@@ -109,9 +109,9 @@ export default function App() {
   }, [locale])
 
   return (
-    <>
+    <div id="top">
       <a className="skip-link" href="#main">{copy.ui.skip}</a>
-      <header className="site-header" id="top">
+      <header className="site-header">
         <div className="container header-inner">
           <a className="brand" href="#top" aria-label={`${copy.hero.firstName} ${copy.hero.lastName}`}>
             <span className="monogram" aria-hidden="true">MG<span>.</span></span>
@@ -287,6 +287,6 @@ export default function App() {
         <p>© {new Date().getFullYear()} {copy.footer}</p>
         <div><a href={resumeUrl} download>{copy.ui.resume}</a><a href="#top">{copy.ui.backToTop}<span aria-hidden="true">↑</span></a></div>
       </footer>
-    </>
+    </div>
   )
 }

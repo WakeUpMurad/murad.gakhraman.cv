@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <radialGradient id="blue-glow">
+      <stop offset="0" stop-color="#0071e3" stop-opacity=".33"/>
+      <stop offset=".5" stop-color="#0071e3" stop-opacity=".13"/>
+      <stop offset="1" stop-color="#0071e3" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="violet-glow">
+      <stop offset="0" stop-color="#785cff" stop-opacity=".28"/>
+      <stop offset=".5" stop-color="#785cff" stop-opacity=".08"/>
+      <stop offset="1" stop-color="#785cff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#09090b"/>
+  <ellipse cx="982" cy="190" rx="430" ry="310" fill="url(#blue-glow)"/>
+  <ellipse cx="1110" cy="350" rx="420" ry="290" fill="url(#violet-glow)"/>
+  <rect x="72" y="55" width="536" height="54" rx="27" fill="#202024" fill-opacity=".7" stroke="#fff" stroke-opacity=".13"/>
+  <path d="M143 72V92" stroke="#fff" stroke-opacity=".18"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif">
+    <text x="94" y="89" fill="#f5f5f7" font-size="20" font-weight="600">MG</text>
+    <text x="166" y="87" fill="#c5c5ce" font-size="16" font-weight="500">FRONTEND DEVELOPER &amp; TECH LEAD</text>
+    <text x="67" y="253" fill="#f5f5f7" font-size="96" font-weight="600" letter-spacing="-4">Murad</text>
+    <text x="67" y="357" fill="#f5f5f7" font-size="96" font-weight="600" letter-spacing="-4">Gakhramanov</text>
+    <text x="72" y="432" fill="#2997ff" font-size="28" font-weight="500">React · TypeScript · Frontend architecture</text>
+  </g>
+  <rect y="508" width="1200" height="122" fill="#f5f5f7"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif">
+    <text x="72" y="553" fill="#1d1d1f" font-size="25" font-weight="500">Production products. Technical leadership. Hands-on delivery.</text>
+    <text x="72" y="594" fill="#6e6e73" font-size="18">wakeupmurad.github.io/murad.gakhraman.cv</text>
+  </g>
+  <path d="M1091 557H1127M1109 539L1127 557L1109 575" fill="none" stroke="#0071e3" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

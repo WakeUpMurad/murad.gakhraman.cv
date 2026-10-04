@@ -1,52 +1,38 @@
 {
-  "homepage": "https://wakeupmurad.github.io/murad.gakhraman.cv/",
-  "name": "murad.gakhraman.cv",
-  "version": "0.1.0",
+  "name": "murad-gakhramanov-portfolio",
+  "version": "1.0.0",
   "private": true,
-  "dependencies": {
-    "@ant-design/icons": "^5.3.7",
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "@types/jest": "^27.5.2",
-    "@types/node": "^16.18.98",
-    "@types/react": "^18.3.3",
-    "@types/react-dom": "^18.3.0",
-    "antd": "^5.18.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-router-dom": "^6.23.1",
-    "react-scripts": "5.0.1",
-    "typescript": "^4.9.5",
-    "web-vitals": "^2.1.4"
+  "type": "module",
+  "description": "Murad Gakhramanov — Frontend Developer & Tech Lead portfolio.",
+  "homepage": "https://wakeupmurad.github.io/murad.gakhraman.cv/",
+  "engines": {
+    "node": "^22.13.0 || ^24.0.0 || >=26.0.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev": "vite",
+    "start": "vite",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "build": "npm run typecheck && vite build",
+    "preview": "vite preview"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
   },
   "devDependencies": {
-    "gh-pages": "^6.1.1"
+    "@testing-library/dom": "10.4.2",
+    "@testing-library/jest-dom": "7.0.1",
+    "@testing-library/react": "16.3.3",
+    "@testing-library/user-event": "14.6.7",
+    "@types/node": "22.20.5",
+    "@types/react": "18.3.31",
+    "@types/react-dom": "18.3.7",
+    "@vitejs/plugin-react": "6.1.1",
+    "jsdom": "29.1.1",
+    "typescript": "6.0.3",
+    "vite": "8.3.2",
+    "vitest": "5.0.3"
   }
 }

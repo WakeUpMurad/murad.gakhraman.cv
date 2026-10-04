@@ -12,6 +12,12 @@
 
 # production
 /build
+/dist
+# Generated resume copies and browser verification screenshots
+/output/
+.vite/
+.vitest/
+*.tsbuildinfo
 
 # misc
 .DS_Store
